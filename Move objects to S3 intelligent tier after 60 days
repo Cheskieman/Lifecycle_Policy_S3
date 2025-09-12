@@ -4,12 +4,22 @@
 
 ### This project will display how you can set different lifecycle options provided by AWS for items contained in an S3 bucket. In this project, we will be covering how to: 
 *Create an S3 bucket on AWS
+* Create a Lifecycle Policy to move objects to S3 intelligent tier after 60 days
+*Create a Lifecycle Policy to move objects to S3 Glacier after 90 days
+*Create a Lifecycle Policy to delete objects after 120 days.
 
 
-#### Instructions on how to........
+#### Instructions on how to create an individual lifecycle policy to 1) move objects to S3 intelligent tier after 60 days 2) move objects to S3 Glacier after 90 days 3) delete objects after 120 days
 
+CREATE A LIFECYCLE POLICY TO MOVE OBJECTS TO S3 INTELLIGIENT TIER AFTER 60 DAYS (STEP BY STEP)
 * Select S3 (from AWS searchtab)> Select Create Bucket>In the "General Configuration" section give your Bucket a name>Scroll to the bottom and select Create Bucket.
 * Click on the S3 bucket you just created> Select Management tab from the top>Select Create Lifecycle Rule from the "Lifecycle Configuration" section>Create a lifecycle rule name and prefix under the "Lifecycle rule configuration" section.> Select Transition Current versions of objects.... as well as select the acknowledgement in the "Lifecycle rule actions" section.> Select Intelligent Tiering under choose storage class transitions and 60 for Days after object creation under "Transition current versions of objects between storage classes" section> Click Create Rule at bottom
+
+CREATE A LIFECYCLE POLICY TO MOVE OBJECTS TO S3 GLACIER AFTER 90 DAYS (STEP TO STEP)
+
+* Select S3 (from AWS searchtab)> Select Create Bucket>In the "General Configuration" section give your Bucket a name>Scroll to the bottom and select Create Bucket.
+* Click on the S3 bucket you just created> Select Management tab from the top>Select Create Lifecycle Rule from the "Lifecycle Configuration" section>Create a lifecycle rule name and prefix under the "Lifecycle rule configuration" section.> Select Transition Current versions of objects.... as well as select the acknowledgement in the "Lifecycle rule actions">Under "Lifecycle rule actions," select Transition current versions of objects between storage classes. section.> Select both Glacier Instant Retreival from Choose storage class transitions and 90 days from Days after object creation from"Transition current versions of objects between storage classes"> Click Create Rule at the bottom of  
+
 
 
 
