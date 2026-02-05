@@ -32,6 +32,8 @@ CREATE A LIFECYCLE POLICY TO MOVE OBJECTS TO S3 INTELLIGENT TIER AFTER 60 DAYS (
 
 *Create a lifecycle rule name and prefix under the "Lifecycle rule configuration" section
 
+* Select a name for the lifecycle
+
 *Select Transition Current versions of objects.... as well as select the acknowledgement in the "Lifecycle rule actions" section
 
 *Select Intelligent Tiering under Choose Storage Class Transitions and 60 for Days after object creation under "Transition current versions of objects between storage classes" section 
