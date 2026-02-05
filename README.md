@@ -2,8 +2,9 @@
 
 ## Full Step by Step Guide with snapshots to both describe and illustrate how to set different lifecycle policies for items placed inside an S3 bucket.
 
-### This project will display how to set different lifecycle policies provided by AWS for items contained in an S3 bucket, Including: 
-*Create an S3 bucket on AWS
+### This project will display how to set different lifecycle policies provided by AWS for items contained in an S3 bucket, including: 
+
+*Create a S3 Bucket
 
 *Create a Lifecycle Policy to move objects to the S3 intelligent tier after 60 days
 
@@ -12,9 +13,9 @@
 *Create a Lifecycle Policy to delete objects after 120 days
 
 
-#### Instructions on how to create an individual lifecycle policies
+#### Instructions on how to create an S3 Bucket and individual lifecycle policies
 
-CREATE A LIFECYCLE POLICY TO MOVE OBJECTS TO S3 INTELLIGENT TIER AFTER 60 DAYS (STEP BY STEP)
+**CREATE A LIFECYCLE POLICY TO MOVE OBJECTS TO S3 INTELLIGENT TIER AFTER 60 DAYS (STEP BY STEP)**
 
 *Select S3 (from AWS search tab)
   
@@ -32,7 +33,7 @@ CREATE A LIFECYCLE POLICY TO MOVE OBJECTS TO S3 INTELLIGENT TIER AFTER 60 DAYS (
 
 *Create a lifecycle rule name and prefix under the "Lifecycle rule configuration" section
 
-* Select a name for the lifecycle
+*Select a name for the lifecycle
 
 *Select Transition Current versions of objects.... as well as select the acknowledgement in the "Lifecycle rule actions" section
 
@@ -40,20 +41,18 @@ CREATE A LIFECYCLE POLICY TO MOVE OBJECTS TO S3 INTELLIGENT TIER AFTER 60 DAYS (
 
 *Click Create Rule at the bottom
 
+*Click on the S3 bucket you just created Select Properties tab from the top
 
-CREATE A LIFECYCLE POLICY TO MOVE OBJECTS TO S3 GLACIER AFTER 90 DAYS (STEP BY STEP)
+*Scroll Down to where it says S3 Intelligent-Tiering Archive configurations and Choose Configuration
 
-*Select S3 (from AWS search tab)
+*Give your configuration a name, select a Prefix and set a tag under the "Archive configuration settings" section 
 
-*Select Create Bucket
-  
-*In the "General Configuration" section give your Bucket a name
+*Click Create on Bottom.
 
-*Scroll to the bottom and select Create Bucket
 
-*Click on the S3 bucket you just created
-  
-*Select Management tab from the top
+
+**CREATE A LIFECYCLE POLICY TO MOVE OBJECTS TO S3 GLACIER AFTER 90 DAYS (STEP BY STEP)**
+
 
 *Select Create Lifecycle Rule from the "Lifecycle Configuration" section
 
@@ -71,13 +70,17 @@ CREATE A LIFECYCLE POLICY TO MOVE OBJECTS TO S3 GLACIER AFTER 90 DAYS (STEP BY S
 
 *Click "Create Rule"
 
-*Click on the S3 bucket you just created Select Properties tab from the top
+ **CREATE A LIFECYCLE POLICY TO DELETE OBJECTS AFTER 120 DAYS**
 
-*Scroll Down to where it says S3 Intelligent-Tiering Archive configurations and Choose Configuration
+*Select Create Lifecycle Rule from the "Lifecycle Configuration" section
 
-*Give your configuration a name, select a Prefix and set a tag under the "Archive configuration settings" section 
+*Create a lifecycle rule name and prefix under "Lifecycle rule configuration"
 
-*Click Create on Bottom.
+*Select Expire Current versions of objects
+
+* Select 120 for Days after object creation
+
+* Select the Create Rule button at the bottom
 
 
 
