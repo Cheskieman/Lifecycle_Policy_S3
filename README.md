@@ -51,7 +51,7 @@
 </p>  
 *Select Transition Current versions of objects.... as well as select the acknowledgement in the "Lifecycle rule actions" section
   <p align="center">  
-  <img src="Lifecycle rule actions transition current versions of objects between storage classes.png" alt=" Select Transition current version of object between storage classes" width="900" />  
+  <img src="Select Acknowledge transactions are changed per request.png" alt=" Select Transition current version of object between storage classes" width="900" />  
 </p>  
 *Select Intelligent Tiering under Choose Storage Class Transitions and 60 for Days after object creation under "Transition current versions of objects between storage classes" section 
   <p align="center">  
@@ -67,13 +67,13 @@
 </p>  
 *Scroll down to where it says S3 Intelligent-Tiering Archive configurations and choose Configuration
   <p align="center">  
-  <img src="Sel" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="Select Acknowledge transactions are changed per request.png" alt="Select S3 Intelligient-Tiering Archived" width="900" />  
 </p>  
 *Give your configuration a name, select a Prefix and set a tag under the "Archive configuration settings" section 
   <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="" alt="Select EC2 from AWS Searchbar" width="900" />  
 </p>  
-*Click Create on Bottom.
+*Click Create at the bottom.
 <p align="center">  
   <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
 </p>  
