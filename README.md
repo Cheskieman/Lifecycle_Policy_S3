@@ -71,7 +71,7 @@
 </p>  
 *Give your configuration a name, select a Prefix.
   <p align="center">  
-  <img src=Archive Configurationsettings name and prefix.png"" alt="Archive Configuration name and prefix" width="900" />  
+  <img src="Archive Configurationsettings name and prefix.png" alt="Archive Configuration name and prefix" width="900" />  
 </p>  
 *Click Create at the bottom.
 <p align="center">  
