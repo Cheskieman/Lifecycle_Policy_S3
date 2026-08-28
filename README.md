@@ -83,19 +83,19 @@
 
 *Select Create Lifecycle Rule from the "Lifecycle Configuration" section
   <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="s3createlifecycle rulephoto.png" alt="Select Create  Lifecycle Rule" width="900" />  
 </p>  
 *Create a lifecycle rule name and prefix under "Lifecycle rule configuration"
   <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="s3glacier90DAYSLIEFECYCLEANDPREFIX.png" alt="Select name and prefix Lifecycle rule" width="900" />  
 </p>  
 *Select "Transition current versions of objects"
   <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="Lifecycle rule actions transition current versions of objects between storaghe classes.png" alt="Select Transition current versions of objects" width="900" />  
 </p>  
 *Check the acknowledgement box
   <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="Select Acknowledge transactions are changed per request.png" alt="Selectm the acknoledgement box" width="900" />  
 </p>  
 *Under "Lifecycle rule actions," choose "Transition current versions of objects between storage classes"
   <p align="center">  
