@@ -61,7 +61,7 @@
   <p align="center">  
   <img src="Create Rule bottom.png" alt="Create Rule" width="900" />  
 </p>  
-*Click on the S3 bucket you just created. Select the Properties tab from the top
+*Click on the S3 bucket you just created. Select the Properties tab at the top
   <p align="center">  
   <img src="S3 Select Propertiesoptionphoto.png" alt="Select Properties tab " width="900" />  
 </p>  
@@ -69,13 +69,13 @@
   <p align="center">  
   <img src="Select Acknowledge transactions are changed per request.png" alt="Select S3 Intelligient-Tiering Archived" width="900" />  
 </p>  
-*Give your configuration a name, select a Prefix and set a tag under the "Archive configuration settings" section 
+*Give your configuration a name, select a Prefix.
   <p align="center">  
-  <img src="" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src=Archive Configurationsettings name and prefix.png"" alt="Archive Configuration name and prefix" width="900" />  
 </p>  
 *Click Create at the bottom.
 <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="createbutton.png" alt="Select Create Button at bottom" width="900" />  
 </p>  
 
 **CREATE A LIFECYCLE POLICY TO MOVE OBJECTS TO S3 GLACIER AFTER 90 DAYS (STEP BY STEP)**
