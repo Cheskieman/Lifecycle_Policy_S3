@@ -1,6 +1,6 @@
 # Configure different lifecycle policies for specific items in an S3 Bucket
 
-## Full Step by Step Guide with snapshots to both describe and illustrate how to set different lifecycle policies for items placed inside an S3 bucket.
+## Full Step-by-Step Guide with snapshots to both describe and illustrate how to set different lifecycle policies for items placed inside an S3 bucket.
 
 ### This project will display how to set different lifecycle policies provided by AWS for items contained in an S3 bucket, including: 
 
@@ -99,15 +99,11 @@
 </p>  
 *Under "Lifecycle rule actions," choose "Transition current versions of objects between storage classes"
   <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="Lifecycle rule actions transition current versions of objects between storage classes.png" alt="Transition current versions of objects between storaghe classes " width="900" />  
 </p>  
-*Select "Glacier Instant Retrieval" as the storage class
+*Select "Glacier Instant Retrieval" as the storage class & Set transition to "90 days after object creation
   <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
-</p>  
-*Set transition to "90 days after object creation"
-  <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="s3glacierinstantretreival90daysphoto.png" alt="Set Glacier Instant Retieval & 90 days" width="900" />  
 </p>  
 *Click "Create Rule"
   <p align="center">  
