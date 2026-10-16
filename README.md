@@ -97,10 +97,11 @@
   <p align="center">  
   <img src="Select Acknowledge transactions are changed per request.png" alt="Selectm the acknoledgement box" width="900" />  
 </p>  
-*Under "Lifecycle rule actions," choose "Transition current versions of objects between storage classes"
-  <p align="center">  
-  <img src"Lifecycle rule actions transition current versions of objects between storaghe classes.png" alt="Transition current versions of objects between storaghe classes " width="900" />  
-</p>  
+* Under "Lifecycle rule actions," choose "Transition current versions of objects between storage classes"
+
+<p align="center">
+  <img src="Lifecycle%20rule%20actions%20transition%20current%20versions%20of%20objects%20between%20storage%20classes.png" alt="Transition current versions of objects between storage classes" width="900" />
+</p>
 *Select "Glacier Instant Retrieval" as the storage class & Set transition to "90 days after object creation
   <p align="center">  
   <img src="s3glacierinstantretreival90daysphoto.png" alt="Set Glacier Instant Retieval & 90 days" width="900" />  
