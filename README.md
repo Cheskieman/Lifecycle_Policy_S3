@@ -99,7 +99,7 @@
 </p>  
 *Under "Lifecycle rule actions," choose "Transition current versions of objects between storage classes"
   <p align="center">  
-  <img src="Lifecycle rule actions transition current versions of objects between storage classes.png" alt="Transition current versions of objects between storaghe classes " width="900" />  
+  <img src"Lifecycle rule actions transition current versions of objects between storaghe classes.png" alt="Transition current versions of objects between storaghe classes " width="900" />  
 </p>  
 *Select "Glacier Instant Retrieval" as the storage class & Set transition to "90 days after object creation
   <p align="center">  
