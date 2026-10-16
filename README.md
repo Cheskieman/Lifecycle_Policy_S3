@@ -105,6 +105,8 @@
   <p align="center">  
   <img src="Create Rule bottom.png" alt="Select Create Rule" width="900" />  
 </p>  
+
+ 
  **CREATE A LIFECYCLE POLICY TO DELETE OBJECTS AFTER 120 DAYS**
 
 *Select Create Lifecycle Rule from the "Lifecycle Configuration" section
