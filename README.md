@@ -117,6 +117,8 @@
    <p align="center">  
   <img src="Lifecycle rule name for delete-objects-afteer-120-days.png" alt="Select Lifecycle Rule Name" width="900" />  
 </p> 
+  
+  
   <p align="center">  
   <img src="prefix create lifecycle polocies.png" alt="Select Lifecycle Rule Name" width="900" />  
 </p>  
