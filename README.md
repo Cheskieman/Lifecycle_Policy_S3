@@ -107,29 +107,25 @@
 </p>  
 *Click "Create Rule"
   <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="Create Rule bottom.png" alt="Select Create Rule" width="900" />  
 </p>  
  **CREATE A LIFECYCLE POLICY TO DELETE OBJECTS AFTER 120 DAYS**
 
 *Select Create Lifecycle Rule from the "Lifecycle Configuration" section
   <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="s3createlifecycle rulephoto.png" alt="Select Lifecycle Configuration" width="900" />  
 </p>  
 *Create a lifecycle rule name and prefix under "Lifecycle rule configuration"
   <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="prefix create lifecycle polocies.png" alt="Select Lifecycle Rule Name" width="900" />  
 </p>  
-*Select Expire Current versions of objects
+*Select expired current versions of objects and 120 days
   <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
-</p>  
-* Select 120 for Days after object creation
-  <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="Expire Current versions of objects 120 days.png" alt="Select expired current versions oif object" width="900" />  
 </p>  
 * Select the Create Rule button at the bottom
   <p align="center">  
-  <img src="Selectr ec2 from AWS searchbar.png" alt="Select EC2 from AWS Searchbar" width="900" />  
+  <img src="Create Rule bottom.png" alt="Select EC2 from AWS Searchbar" width="900" />  
 </p>  
 
 
